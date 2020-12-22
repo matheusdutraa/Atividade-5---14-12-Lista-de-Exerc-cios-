@@ -1,0 +1,19 @@
+  
+programa
+{
+	caracter ave
+	funcao inicio()
+	{
+		leia(ave)
+
+
+		se(ave == 'a' ou ave == 'e' ou ave == 'i' ou ave == 'o' ou ave == 'u' ){
+			escreva("é vogal")
+		}senao {
+			escreva("é conçoante!")
+		}
+		
+	}
+}
+
+/*essa eu tive dificuldade, e tive que olhar o gihtub do professor*/
