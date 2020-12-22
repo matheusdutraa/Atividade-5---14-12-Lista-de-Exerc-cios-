@@ -1,0 +1,25 @@
+programa
+{
+	/*Escreva um programa que leia a velocidade de um carro. Se ele
+ultrapassar 80Km/h, mostre uma mensagem dizendo que
+ele foi multado. A multa vai custar R$7,00 por cada Km
+acima do limite.*/
+
+	funcao inicio()
+	{
+		inteiro velocidade
+		inteiro multa = 7
+		inteiro km
+
+		escreva("qual a velocidade do carro ?")
+		leia(velocidade)
+
+		km = velocidade - 80
+
+		se(velocidade > 80){
+			escreva("Vai levar multa, e vai custar : ", km * 7, " reais")
+		} senao{
+			escreva("ta tranquilo, vai na paz")
+		}
+	}
+}
