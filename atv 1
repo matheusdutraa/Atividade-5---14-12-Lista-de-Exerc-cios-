@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro jaja
+		inteiro jojo
+
+		escreva("diga um numero")
+		leia(jaja)
+			escreva("diga um segundo numero")
+		leia(jojo)
+
+		se(jaja>jojo){
+			escreva("o primeiro numero dito é maior")
+		}senao{
+			escreva("o segundo numero dito é maior")
+		}
+	}
+}
