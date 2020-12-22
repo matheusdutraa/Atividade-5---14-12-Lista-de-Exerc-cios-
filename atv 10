@@ -1,0 +1,49 @@
+programa
+{
+	/*Escrever um algoritmo que leia o código do item pedido, a
+quantidade e calcule o valor a ser pago por aquele lanche.*/
+
+	funcao inicio()
+	{
+
+		inteiro pedido
+
+		escreva("qual seu pedido ? esse é o cardápio com valores, e codigos dos produtos para pedidos : \n100 Cachorro quente 5.00 \n 101 Bauru 2.60 \n 102 Bauru c/ovo 3.80 \n 103 Hamburger 9.00 \n 104 Cheeseburger 11.00 \n 105 Refrigerante 3.00 \n 106 Semente dos Deuses 1000.00  \n")
+		leia(pedido)
+
+		se(pedido == 100){
+			escreva("aqui está seu cachorro quente, vai ficar 5 reais.")
+		}
+		senao se(pedido == 101){
+			escreva("aqui está seu bauru, vai ficar 2,60 reais")
+		}
+		senao se(pedido == 102){
+			escreva("aqui está seu bauru c/ ovo, vai ficar 3 reais.")
+		}
+		senao se(pedido == 103){
+			escreva("aqui está seu hamburguer, vai ficar 9 reais.")
+		}
+		senao se(pedido == 104){
+			escreva("aqui está seu cheeseburger, vai ficar 11 reias.")
+		}
+		senao se(pedido == 105){
+			escreva("aqui está seu refrigerante, vai ficar 3 reais.")
+		}
+		senao se(pedido == 106){
+			escreva("aqui está sua semente dos Deuses, vai ficar 1000 reais.")
+		}
+		senao{
+			escreva("não temos esse produto aqui, peço que olhe nosso cardápio.")
+		}
+	}
+}
+
+/*
+100 Cachorro quente 5.00
+101 Bauru 2.60
+102 Bauru c/ovo 3.80
+103 Hamburger 9.00
+104 Cheeseburger 11.00
+105 Refrigerante 3.00
+106 Semente dos Deuses 1000.00
+*/
