@@ -1,0 +1,36 @@
+programa
+{
+	/*Faça um programa para a leitura de duas notas parciais de um aluno. O programa
+deve calcular a média alcançada por aluno e apresentar:
+A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
+A mensagem "Reprovado", se a média for menor do que sete;
+A mensagem "Aprovado com Distinção", se a média for igual a dez.*/
+
+	funcao inicio()
+	{
+		inteiro nota1
+		inteiro nota2
+		inteiro notaal
+
+
+		escreva("Diga a nota  1 ")
+		leia(nota1)
+		escreva("Diga a nota  2 ")
+		leia(nota2)
+		
+
+		notaal = nota1 + nota2
+
+
+		se(notaal == 100){
+			escreva("aprovado com distinção")
+		}
+		senao se(notaal >= 70){
+			escreva ("aprovado")
+		}
+		senao{escreva("reprovado")
+		}
+
+		
+	}
+}
