@@ -1,0 +1,37 @@
+programa
+{
+	/*Dados três valores verifiquem se eles podem ser os comprimentos dos lados de um
+triângulo. Se forem, verifique se compõem um triângulo equilátero, isósceles ou
+escaleno. Informar se não compõem nenhum triângulo.
+Dados de entrada: três lados de um provável triangulo;
+Dados de saída: Não compõem triângulo, triângulo equilátero, triângulo isósceles
+ou triângulo escaleno.*/
+	funcao inicio()
+	{
+		inteiro f1
+		inteiro f2
+		inteiro f3
+
+		escreva("diga o tamanho do lado 1 :")
+		leia(f1)
+		escreva("diga o tamanho do lado 2 :")
+		leia(f2)
+		escreva("diga o tamanho do lado 3 :")
+		leia(f3)
+
+		se(f1 + f2 > f3 e f1 + f3 > f2 e f2 + f3 > f1){
+			
+          se( f1 != f2 e f1 != f3 e f2 != f3 ){
+	     
+	     escreva("ele é um Triângulo escaleno")
+		}
+		senao se( f1 == f2 e f1 == f2){
+			escreva("ele é um triangulo equilatero")
+		}
+		senao{
+			escreva("ele é um triangulo isóceles")
+		}
+		}
+		
+	}
+}
