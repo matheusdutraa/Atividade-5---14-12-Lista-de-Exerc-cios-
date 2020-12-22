@@ -1,0 +1,19 @@
+programa
+{
+	/*Faça um Programa que peça uma temperatura e informe na tela se
+o valor é positivo ou negativo..*/
+	funcao inicio()
+	{
+		inteiro jaja
+		
+
+		escreva("diga uma temperatura")
+		leia(jaja)
+			
+		se(jaja>0){
+			escreva("ela é positiva")
+		}senao{
+			escreva("ela é negativa")
+		}
+	}
+}
