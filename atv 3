@@ -1,0 +1,31 @@
+programa
+{
+	/*Faça um programa que pergunte ao paciente se está sentindo os sintomas da
+COVID (de acordo com o folheto) e informe se está ou não com COVID.
+Desafio: informe também a intensidade dos sintomas (comuns ou graves)*/
+	funcao inicio()
+	{
+		
+		inteiro zap
+		inteiro zop
+		inteiro zap_zop
+
+
+		escreva("Vou avaliar se voce tem chance de estar com sintomas de covid. primeiro os sintomas simples, coriza, tosse, febre ou dor de garganta, voce está com algum desses? se sim diga quantos, ou se for apenas 1, responda 1")
+          leia(zap)
+
+          escreva("e agora o sintoma mais grave, voce está com dificuldade para respirar ? Para SIM responda 1, para NÂO responda 0")
+          leia(zop)
+
+          zap_zop = zap + zop
+
+          se(zap_zop > 5){
+          	escreva("Voce está com grandes chances de estar com covid! Ligue para um hospital e siga as instruçoes dele!")
+          } senao se(zap_zop > 3){
+          	escreva("Não é certo que sejá covid, mas que voce está com um problema de saúde que pode ser sério, voce está, então procure um médico para te orientar!")
+          } senao{
+          	escreva("voce deve estar com uma gripe ou coisa do tipo, procura tomar um remédio, se os sintomas permanecerem, procure um médico")
+          }
+          		
+	}
+}
