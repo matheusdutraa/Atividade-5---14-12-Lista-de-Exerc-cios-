@@ -1,0 +1,59 @@
+programa
+{
+	/*Faça um Programa que leia três números e mostre-os em ordem decrescente.*/
+	funcao inicio()
+	{
+		inteiro rone
+	     inteiro rsec
+	     inteiro rtre
+
+	     escreva("diga o primeiro número : \n") 
+	     leia(rone)
+	     escreva("diga o segundo número : \n") 
+	     leia(rsec)
+	     escreva("diga o terceiro número : \n") 
+	     leia(rtre)
+
+	     se( rone < rsec e rsec < rtre){
+	     	escreva("\n", rone, "\n", rsec, "\n", rtre, "\n")  	
+	     } 
+
+	     senao se(rone < rtre e rtre < rsec){
+	     	escreva("\n", rone, "\n", rtre, "\n", rsec, "\n")
+	     }
+
+	     senao se(rsec < rone e rone < rtre){
+	     	escreva("\n", rsec, "\n", rone, "\n", rtre, "\n") 
+	     }
+
+	     senao se(rsec < rtre e rtre < rone){
+	     	escreva("\n", rsec, "\n", rtre, "\n", rone, "\n") 
+	     }
+
+	     senao se(rtre < rone e rone < rsec){
+	     	escreva("\n", rtre, "\n", rone, "\n", rsec, "\n") 
+	     }
+
+	     senao se(rtre < rsec e rsec < rone){
+	     	escreva("\n", rtre, "\n", rsec, "\n", rone, "\n") 
+	     }
+
+
+
+	     
+	}
+}
+
+/*
+rone < rsec < rtre
+
+rone < rtre < rsec
+
+rsec < rone < rtre
+
+rsec < rtre < rone
+
+rtre < rone < rsec
+
+rtre < rsec < rone
+ */
